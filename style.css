@@ -1,0 +1,326 @@
+
+/*Sección Menú de Navegación*/
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Sección de Inicio*/
+.inicio {
+    background-color: black;
+    padding: 40px 0;
+  }
+  
+  .inicio__content {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .inicio__title {
+    font-family: 'Times New Roman';
+    font-size: 36px;
+    color: #fff;
+  }
+  
+  .inicio__subtitle {
+    font-family: 'Verdana';
+    font-size: 48px;
+    color: #4CAF50;
+  }
+  
+  #acerca {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+  }
+  
+/*  Sección Acerca de*/
+.acerca-header {
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    
+    .titulo {
+    font-family: Verdana;
+    font-size: 3em;
+    color: #4CAF50;
+    margin: 0;
+    }
+    
+    .linea {
+    border-top: 3px solid #4CAF50;
+    width: 90%;
+    margin: 0 auto;
+    }
+    
+    .imagen {
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+    margin-right: 30px; 
+    }
+    
+    .acerca-texto {
+    font-family: Verdana;
+    font-size: 1.5em;
+    overflow: hidden; /* Nueva propiedad */
+    }
+    
+    .container {
+    width: 80%;
+    margin: 0 auto;
+    }
+
+  /* Sección Proyectos*/
+
+  .proyectos-container {
+    width: 100%;
+    background-color: #c2c0c3;
+    padding: 20px 0;
+  }
+  
+  .proyectos-header {
+    text-align: center;
+  }
+  
+  .proyectos-title {
+    font-size: 36px;
+    color: black;
+    margin: 0;
+  }
+  
+  .proyectos-divider {
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .proyectos-list-container {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .proyectos-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .proyectos-list-divider {
+    border: 1px solid #c2c0c3;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .proyectos-list-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 20px 0
+  }
+  
+  /* Sección Conocimientos*/
+  #conocimientos {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 30px 0;
+  }
+  
+  #conocimientos .title {
+    text-align: center;
+  }
+  
+  #conocimientos .title h1 {
+    font-family: Verdana;
+    font-size: 36px;
+    color: #4CAF50;
+    margin: 0;
+  }
+  
+  #conocimientos .title hr {
+    border: none;
+    height: 2px;
+    background-color: #4CAF50;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  #conocimientos .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #conocimientos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #conocimientos ul li {
+    margin: 20px 0;
+  }
+  
+  #conocimientos ul li b {
+    font-size: 20px;
+  }
+  
+  #conocimientos ul li ul {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  #conocimientos ul li ul li {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  #conocimientos ul li ul li:first-child {
+    margin-top: 0;
+  }
+  
+  #conocimientos ul li ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  #conocimientos ul li hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+
+/* Sección Contacto */
+#contacto {
+    background-color: #c2c0c3;
+    padding: 20px;
+  }
+  
+  .contacto-titulo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contacto-formulario {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .contacto-formulario-campo {
+    margin-bottom: 20px;
+  }
+  
+  .contacto-formulario label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contacto-formulario input,
+  .contacto-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .contacto-formulario button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contacto-formulario button:hover {
+    background-color: #f1f1f1;
+  }
+
+  /*Sección de footer1 */
+  #footer {
+    background-color: #4CAF50;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  #footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  #footer li {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    margin: 0 10px;
+  }
+  
+  #footer b {
+    font-weight: bold;
+  }
+
+  /* Sección Footer2 */
+  #footer2 {
+    background-color: black;
+    padding: 20px;
+    color: #4CAF50;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-left {
+    flex-grow: 1;
+  }
+  
+  .author-name {
+    font-weight: bold;
+  }
+  
+  .back-to-top {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .back-to-top:hover {
+    text-decoration: underline;
+  }
+  
+  
